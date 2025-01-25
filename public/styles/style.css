@@ -1,0 +1,122 @@
+* {
+    background-color: #bbb2b2;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-general {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(48, 45, 45);
+    border-radius: 1rem;
+    width: 40rem;
+    height: 20rem;
+}
+
+#section-email {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(48, 45, 45);
+    border-radius: 1rem;
+    width: 84rem;
+    height: 40rem;
+}
+
+
+#form-home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(48, 45, 45);
+}
+
+#form-email {
+    background-color: rgb(48, 45, 45)
+}
+
+ul {
+    background-color: rgb(48, 45, 45);
+}
+
+li {
+    display: flex;
+    align-items: start;
+    color: aliceblue;
+    background-color: rgb(48, 45, 45);
+    font-size: large;
+    line-height: 4rem;
+}
+
+#h1-home {
+    color: aliceblue;
+    background-color: rgb(48, 45, 45);
+    font-size: 2rem;
+}
+
+h1 {
+    color: aliceblue;
+    background-color: rgb(48, 45, 45);
+    font-size: 2.6rem;
+}
+
+p {
+    color: aliceblue;
+    background-color: rgb(48, 45, 45);
+    padding: 0 3rem 0 3rem;
+    font-size: large;
+    text-align: center;
+    line-height: 2rem;
+}
+
+label {
+    background-color: rgb(48, 45, 45);
+    color: aliceblue;
+}
+
+.input-user {
+    background-color: rgb(48, 45, 45);
+    padding: 1rem 0 1rem 0;
+    width: 100%;
+}
+
+#list-emails {
+    background-color: rgb(48, 45, 45);
+    margin: 2rem 4rem 0 2rem;
+}
+
+input {
+    background-color: aliceblue;
+}
+
+#btn-home {
+    margin-top: 1rem;
+    padding: 0.6rem 2rem;
+    background-color: rgb(48, 45, 45);
+    color: aliceblue;
+    font-weight: 900;
+    cursor: pointer;
+}
+
+#btn-home:hover {
+    background-color: aliceblue;
+    color: black;
+}
+
+.btn-delete {
+    background-color: aliceblue;
+    color: black;
+    margin-left: 2rem;
+}
+
+.btn-delete:hover {
+    background-color: red;
+    color: aliceblue;
+}
